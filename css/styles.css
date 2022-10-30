@@ -1,0 +1,185 @@
+#title {
+  color: white;
+  background-color: #ff4c68;
+}
+body {
+  font-family: "Montserrat-Black", sans-serif;
+}
+h1 {
+  font-family: "Montserrat-Black", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 800;
+}
+i {
+  margin-right: 5px;
+}
+.container-fluid {
+  padding: 3% 15% 5%;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0px 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "montserrat-light", sans-serif;
+}
+
+/* Download button */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title image */
+.phone-image {
+  position: relative;
+}
+.title-img {
+  width: 60%;
+  transform: rotate(27deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Feature section  */
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+}
+.feature-box {
+  text-align: center;
+}
+h3 {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-weight: 700;
+}
+.feature-box p {
+  color: #8f8f8f;
+  padding: 0% 12% 3% 12%;
+}
+.icon {
+  color: #ef8172;
+}
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial section  */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+h2 {
+  font-family: "Montserrat-Bold";
+  line-height: 1.5;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+.testimonial-img {
+  width: 20%;
+  border-radius: 50%;
+}
+em {
+  padding-top: 3%;
+  display: block;
+  font-weight: 600;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* press section  */
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section*/
+#pricing {
+  padding: 6.25%;
+  text-align: center;
+}
+#pricing p {
+  color: #8f8f8f;
+  font-weight: 700;
+}
+.pricing-col {
+  padding: 3% 2%;
+  text-align: center;
+}
+.card-header {
+  padding-top: 5%;
+  background-color: #6c757d;
+  color: white;
+}
+.Mastiff {
+  color: white;
+  background-color: #0d6efd;
+}
+.Chihuahua {
+  background-color: lightcyan;
+  color: black;
+}
+.btn-secondary:hover {
+  background-color: #000;
+}
+.btn-primary:hover {
+  background-color: darkblue;
+}
+
+/* CTA  */
+#cta {
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 5% 15% 0;
+}
+#cta h3 {
+  color: white;
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bolder;
+}
+
+/* footer  */
+#footer {
+  text-align: center;
+  padding: 7% 15%;
+}
+#footer a {
+  color: black;
+  margin: 20px 10px;
+}
+#footer p {
+  padding-top: 1%;
+  font-weight: bold;
+  color: #8f8f8f;
+}
+
+/* Media Query */
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-img {
+    position: static;
+    transform: rotate(0deg);
+  }
+}
